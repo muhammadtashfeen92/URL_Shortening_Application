@@ -1,0 +1,56 @@
+table {
+  margin: 3% 3% 0 3%;
+  text-align: center;
+  border: 1px solid black;
+}
+table,
+th,
+td {
+  border-collapse: collapse;
+  word-wrap: break-word;
+}
+thead tr th {
+  background-color: rgb(32, 0, 150);
+  color: whitesmoke;
+  font-size: 20px;
+}
+tr {
+  border: 1px solid black;
+}
+tr:nth-child(odd) {
+  background-color: rgb(220, 220, 245);
+}
+tr:hover {
+  background-color: #c6c7d1;
+}
+th {
+  padding: 10px 0px;
+}
+th,
+td {
+  border: 1px solid black;
+  min-width: 320px;
+  max-width: 320px;
+}
+td {
+  padding: 5px 0px;
+  font-size: 18px !important;
+  height: 75px;
+  overflow: hidden;
+}
+.edit,
+#deleteBtn {
+  font-size: 16px;
+  border-radius: 10px;
+  padding: 4px 12px 3px 12px;
+  margin: 10px 20px 10px 20px;
+}
+.edit {
+  margin: 10px 8px 10px 15px;
+}
+#deleteBtn {
+  margin: 10px 15px 10px 7px;
+}
+.hi {
+  width: 150px;
+}

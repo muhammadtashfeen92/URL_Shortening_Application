@@ -1,0 +1,55 @@
+body{
+    background-color: whitesmoke;
+}
+nav{
+    background-color: rgb(32, 0, 150);
+    height: 110px;
+}
+#imgdiv {
+    float: left;
+    background-color:whitesmoke;
+    width: 120px;
+    height: 80px;
+    border-radius: 15px;
+    margin: 15px 0px 0px 100px;
+}
+img{
+    height: 60px;
+    margin: 10px 0 0 29px;
+}
+.imgspan {
+    float: right;
+    background-color: whitesmoke;
+    font-size: 20px;
+    font-weight: 700;
+    border : 3px solid greenyellow;
+    border-radius: 3px;
+    text-align: center;
+    padding-top: 22px;
+    width: 210px;
+    height: 53px;
+    margin: 15px 140px 0 0;
+}
+.home,.history{
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 21px;
+    display: inline-block;
+    text-align: center;
+    margin: 40px 0 0 5%;
+    border-radius: 5px;
+}
+.home:hover,.history:hover {
+    background-color: whitesmoke;
+    color:black;
+    margin: 40px 0 0 47px;
+    padding-bottom: 2px;
+    width: 100px;
+}
+.home:active,.history:active {
+   text-decoration: underline;
+   color: black;
+}
+
+
